@@ -2079,7 +2079,7 @@ void retro_set_video_refresh     (retro_video_refresh_t cb)      { video_cb     
 void retro_get_system_info(struct retro_system_info *info) // #1
 {
 	memset(info, 0, sizeof(*info));
-	info->library_name     = "DOSBox-pure";
+	info->library_name     = "DOSBox-pure-onlyKB";
 	info->library_version  = DOSBOX_PURE_VERSION_STR;
 	info->need_fullpath    = true;
 	info->block_extract    = true;
