@@ -31,7 +31,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectName>dosbox_pure_libretro</ProjectName>
+    <ProjectName>dosbox_pure_onlyKB_libretro</ProjectName>
     <ProjectGuid>{FFFFFFFF-FFFF-4FFF-FFFF-FFFFFFFFFFFF}</ProjectGuid>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -129,7 +129,7 @@
   -->
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ItemGroup>
-    <ClCompile Include="dosbox_pure_libretro.cpp" />
+    <ClCompile Include="dosbox_pure_onlyKB_libretro.cpp" />
     <ClCompile Include="keyb2joypad.cpp" />
     <ClCompile Include="src\cpu\callback.cpp">
       <Optimization Condition="'$(Configuration)'=='Debug'">MaxSpeed</Optimization>
@@ -645,4 +645,5 @@
     <ClInclude Include="src\ints\int10.h" />
     <ClInclude Include="src\ints\xms.h" />
   </ItemGroup>
+
 </Project>
