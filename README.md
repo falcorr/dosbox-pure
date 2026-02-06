@@ -1,4 +1,4 @@
-# DOSBox Pure
+# DOSBox Pure (with only the on-screen keyboard, no other menus)
 
 DOSBox Pure is a fork of [DOSBox](https://www.dosbox.com/), an emulator for DOS games,
 built for RetroArch/Libretro aiming for simplicity and ease of use.
