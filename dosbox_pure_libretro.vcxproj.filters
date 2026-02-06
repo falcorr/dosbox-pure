@@ -325,7 +325,7 @@
     <ClCompile Include="src\shell\shell_misc.cpp">
       <Filter>src\shell</Filter>
     </ClCompile>
-    <ClCompile Include="dosbox_pure_libretro.cpp" />
+    <ClCompile Include="dosbox_pure_onlyKB_libretro.cpp" />
     <ClCompile Include="keyb2joypad.cpp" />
     <ClCompile Include="src\hardware\voodoo.cpp">
       <Filter>src\hardware</Filter>
@@ -689,4 +689,5 @@
     <Filter Include="src\shell" />
     <Filter Include="src" />
   </ItemGroup>
+
 </Project>
